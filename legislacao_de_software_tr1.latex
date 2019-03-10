@@ -63,7 +63,7 @@
 
     \noindent \textbf{TRABALHO I }
 
-    \bibliography{referencias_leg_software}
+    \bibliography{general_bibliografy}
 
     \section{Citações destacadas do texto:}
 
@@ -72,7 +72,6 @@
     paradoxalmente, dotado de qualidades e aspirações" \cite[p. 2]{ARRABAL2015}
 
     \begin{citacao}
-
         ``A  ambiguidade  se  tornou  o  traço
         característico  da simbologia pirata, estendida  do sujeito à ação ,
         do pirata à pirataria .  A ambivalência  de valores  chega  ao século
