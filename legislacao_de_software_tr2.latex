@@ -1,0 +1,117 @@
+\documentclass[
+	% -- opções da classe memoir --
+	article,			% indica que é um artigo acadêmico
+	11pt,				% tamanho da fonte
+	oneside,			% para impressão apenas no recto. Oposto a twoside
+	a4paper,			% tamanho do papel. 
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE % títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	sumario=tradicional
+	]{abntex2}
+
+\usepackage[utf8]{inputenc}
+\usepackage[marginpar]{todo}
+
+\titulo{Tecnologia em núvem, um novo caminho no combate à pirataria}
+\autor{Gustavo Henrique Spiess\\\href{mailto:gustavospiess@gmail.com}{gustavospiess@gmail.com}}
+
+\local{Brasil}
+
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+        pdfsubject={Tecnologia em núvem, um novo caminho no combate à pirataria},
+	    pdfcreator={LaTeX with abnTeX2},
+        pdfkeywords={Pirataria}{Propriedade Intelectual}{Streaming}{Cloud},
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatletter
+
+\selectlanguage{brazil}
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm} 
+
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[abnt-missing-year=sd,alf]{abntex2cite}	% Citações padrão ABNT
+\begin{document}
+
+
+    \citeoption{abnt-missing-year=sd}
+    \selectlanguage{brazil}
+    \frenchspacing 
+
+    \maketitle
+
+    \noindent \textbf{DISCIPLINA: LEGISLAÇÃO EM INFORMÁTICA}
+
+    \noindent \textbf{PROF. ALEJANDRO KNAESEL ARRABAL}
+
+    \noindent \textbf{TRABALHO II}
+
+    \section{Afirmação}
+
+    A tecnologia em nuvem (\emph{cloud}) trás um novo caminho possível para a
+    resolução do problema da pirataria.
+
+    \section{Texto Argumentativo}
+
+    \hidden{\todo{introdução}}
+
+    A natureza da nuvem (\emph{cloud}) é moderna, e faz parte de um processo de
+    migração de modelos de negócio. Essa migração, e as tecnologias que a
+    possibilitam trazem uma série de novos desafios. Um desses desafios é a
+    segurança:
+
+    \begin{citacao}
+        Em Cloud Computing o risco relativo à segurança da informação tornou-se
+        uma das principais preocupações entre os gestores e o ritmo de sua
+        disseminação está diretamente relacionado ao grau de confiança no
+        modelo. Sem confiança, a dificuldade na adoção do modelo se torna um
+        obstáculo/desafio, uma vez que, essa tomada de decisão, pode colocar em
+        risco os ativos da organização. \cite[p. 3]{SANTOS2010}
+    \end{citacao}
+
+    \citeinline{SANTOS2010} ainda aponta que a legislação acompanha lentamente
+    essas mudanças. E não está adaptada aos novos modelos propostos. Isso por
+    que "Os serviços em nuvem mudaram não só o modo de trabalhar, mas o
+    relacionamento com a internet: serviços de streaming como Spotify e Netflix
+    já são extremamente populares..." \cite{EXAME_ANUV}.
+
+    Isso ocorre devido à novos modelos de negócios, como apontado
+    anteriormente, que se vem a possibilidade de existência nas novas
+    tecnologias. Entre esses novos modelos de negócio, cuja própria definição
+    passa pelo modelo de implementação técnica, está o \emph{Saas}:
+
+    \begin{citacao}
+        "Software como Serviço (Software as a Service - SaaS) – Nesse modelo de
+        serviço o software é executado em um servidor, não sendo necessário
+        instalar o sistema no computador do cliente , basta acessá-lo por meio
+        da internet. O modelo de serviço de SaaS ainda tem uma série de
+        desafios a serem vencidos, dentre os quais podemos destacar os
+        problemas regulatórios, a integração com os recursos internos da
+        organização, a disponibilidade e mais especificamente a segurança das
+        informações." \cite{CASTRO2010}
+    \end{citacao}
+
+    \hidden{\todo{conclusão}}
+
+    \bibliography{general_bibliografy}
+
+\end{document}
+
