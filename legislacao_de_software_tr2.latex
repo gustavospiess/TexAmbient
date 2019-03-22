@@ -3,7 +3,7 @@
 	article,			 % indica que é um artigo acadêmico
 	11pt,				 % tamanho da fonte
 	oneside,			 % para impressão apenas no recto. Oposto a twoside
-	a4paper,			 % tamanho do papel. 
+	a4paper,			 % tamanho do papel.
 	%chapter=TITLE,		 % títulos de capítulos convertidos em letras maiúsculas
 	%section=TITLE,		 % títulos de seções convertidos em letras maiúsculas
 	%subsection=TITLE,	 % títulos de subseções convertidos em letras maiúsculas
@@ -16,16 +16,16 @@
 
 \usepackage[utf8]{inputenc}
 
-\titulo{Tecnologia em núvem, um novo caminho no combate à pirataria}
+\titulo{Tecnologia em nuvem, pirataria e mudanças na forma de consumir}
 \autor{Gustavo Henrique Spiess\\\href{mailto:gustavospiess@gmail.com}{gustavospiess@gmail.com}}
 
 \local{Brasil}
 
 \hypersetup{
      	%pagebackref=true,
-		pdftitle={\@title}, 
+		pdftitle={\@title},
 		pdfauthor={\@author},
-        pdfsubject={Tecnologia em núvem, um novo caminho no combate à pirataria},
+        pdfsubject={Tecnologia em nuvem, pirataria e mudanças na forma de consumir},
 	    pdfcreator={LaTeX with abnTeX2},
         pdfkeywords={Pirataria}{Propriedade Intelectual}{Streaming}{Cloud},
 		colorlinks=true,       		% false: boxed links; true: colored links
@@ -40,7 +40,7 @@
 \selectlanguage{Brazil}
 
 \setlength{\parindent}{1.3cm}
-\setlength{\parskip}{0.2cm} 
+\setlength{\parskip}{0.2cm}
 
 \setlrmarginsandblock{3cm}{3cm}{*}
 \setulmarginsandblock{3cm}{3cm}{*}
@@ -50,10 +50,8 @@
 \usepackage[abnt-missing-year=sd,alf]{abntex2cite}	% Citações padrão ABNT
 \begin{document}
 
-
-    \citeoption{abnt-missing-year=sd}
     \selectlanguage{brazil}
-    \frenchspacing 
+    \frenchspacing
 
     \maketitle
 
@@ -65,17 +63,28 @@
 
     \section{Afirmação}
 
-    A tecnologia em nuvem (\emph{cloud}) trás um novo caminho possível para a
-    resolução do problema da pirataria.
+    A tecnologia em nuvem (\emph{cloud}) iniciou uma mudança de paradigma nos
+    modelos de negócio e trouce um novo caminho possível para a resolução do
+    problema da pirataria.
+
 
     \section{Texto Argumentativo}
 
     %início da introdução
 
+    A pirataria e a tecnologia dentro de cada momento histórico estiveram
+    sempre ligados de forma íntima. A tecnóloga serviu regularmente como meio
+    para a pirataria. Mais recentemente a tecnologia serviu como objeto a ser
+    pirateado. A pirataria, junto com a tecnologia, mudou ao longo dos anos, se
+    o ápice do conhecimento humano permitia no século XIV permitia que um
+    navegante atravessasse o mundo em alguns meses, hoje navegar a internet nos
+    conecta ao outro lado do mundo em instantes. Em ambos os casos, a tecnóloga
+    é o meio de existência da pirataria.
+
     A música é um bom exemplo a ser observado quando tratamos da pirataria nos
     tempos modernos.  ``E embora a produção digital de música venha ocorrendo
     desde os anos 1960 foi apenas no início década de 80 que os primeiros
-    discos compactos começaram a ser comercializado" \cite[p. 4]{ALMEIDA2018}.
+    discos compactos começaram a ser comercializados" \cite[p. 4]{ALMEIDA2018}.
     E a tecnologia usada para a comercialização da música é geralmente a mesma
     usada para a suas versões pirateadas.
 
@@ -100,7 +109,7 @@
     consumidores simultaneamente. O novo modelo apresentado, \emph{Streaming}
     funciona com a transmissão sob demanda, onde cada consumidor recebe a
     informação desejada em específico.
-    
+
     Essa tecnologia é moderna, e faz parte de um processo de migração de
     modelos de negócio. Essa migração, e as tecnologias que a possibilitam,
     trazem uma série de novos desafios. Um desses desafios é a segurança:
@@ -156,8 +165,9 @@
     Para entender o processo de combate que tecnologias como o \emph{Spotify}
     tem contra a pirataria, é preciso prestar a atenção da industrial
     fonográfica, e como ela utilizava a legislação de direitos autorais para a
-    construção de um modelo estável.
-    
+    construção de um modelo estável. Este modelo tem perdido espaço com as
+    mudanças que o cenário da música tem incorporado em si.
+
     ``Os serviços de músicas por streaming, que cobram pela escuta a partir do
     consumo de dados, surgiram no começo de 2010 com o processo de convergência
     midiática mais influente e popular, principalmente com a ascensão de
@@ -193,7 +203,7 @@
     tecnologias que expandem os horizontes da indústria. As mesmas técnicas que
     possibilitam a produção em maior escala, ou meios alternativos de
     distribuição foram utilizadas para uma disponibilização e produção que não
-    respeitava os direitos do autor.  
+    respeitava os direitos do autor.
 
     \begin{citacao}
         ``A partir do início do século XXI vemos surgir, decorrente do cruzamento de
@@ -261,10 +271,10 @@
     Existe também a presença do jornalismo como forma de podcast, mas esta
     mídia acaba dependendo de outros mecanismos para a sustentação financeira.
     E por fim, parte das funções sociais compostas pelos jornais impressos ou
-    televisionados foi transmitida,principalmente no meio politico, para a
+    televisionados foi transmitida, principalmente no meio politico, para a
     plataforma \emph{Youtube}, que visa ser um ambiente para compartilhamento
     de vídeos amadores, pseudo amadores ou semi profissionais.
-    
+
     E em adição, outras plataformas que possibilitam a atuação jornalistica são
     as redes sociais, desde o \emph{Whatsapp}, ao \emph{Facebook} e ao
     \emph{Twitter}.
