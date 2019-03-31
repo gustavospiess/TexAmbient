@@ -1,0 +1,293 @@
+\documentclass[
+	% -- opções da classe memoir --
+	article,			 % indica que é um artigo acadêmico
+	11pt,				 % tamanho da fonte
+	oneside,			 % para impressão apenas no recto. Oposto a twoside
+	a4paper,			 % tamanho do papel.
+	%chapter=TITLE,		 % títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		 % títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	 % títulos de subseções convertidos em letras maiúsculas
+	subsubsection=TITLE, % títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			 % idioma adicional para hifenização
+	brazil,				 % o último idioma é o principal do documento
+	sumario=tradicional
+	]{abntex2}
+
+\usepackage[utf8]{inputenc}
+
+\titulo{Tecnologia em nuvem, pirataria e mudanças na forma de consumir}
+\autor{Gustavo Henrique Spiess\\\href{mailto:gustavospiess@gmail.com}{gustavospiess@gmail.com}}
+
+\local{Brasil}
+
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title},
+		pdfauthor={\@author},
+        pdfsubject={Tecnologia em nuvem, pirataria e mudanças na forma de consumir},
+	    pdfcreator={LaTeX with abnTeX2},
+        pdfkeywords={Pirataria}{Propriedade Intelectual}{Streaming}{Cloud},
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatletter
+
+\selectlanguage{Brazil}
+
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}
+
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[abnt-missing-year=sd,alf]{abntex2cite}	% Citações padrão ABNT
+\begin{document}
+
+    \selectlanguage{brazil}
+    \frenchspacing
+
+    \maketitle
+
+    \noindent \textbf{DISCIPLINA: LEGISLAÇÃO EM INFORMÁTICA}
+
+    \noindent \textbf{PROF. ALEJANDRO KNAESEL ARRABAL}
+
+    \noindent \textbf{TRABALHO II}
+
+    \section{Afirmação}
+
+    A tecnologia em nuvem (\emph{cloud}) iniciou uma mudança de paradigma nos
+    modelos de negócio e trouce um novo caminho possível para a resolução do
+    problema da pirataria.
+
+
+    \section{Texto Argumentativo}
+
+    %início da introdução
+
+    A pirataria e a tecnologia dentro de cada momento histórico estiveram
+    sempre ligados de forma íntima. A tecnóloga serviu regularmente como meio
+    para a pirataria. Mais recentemente a tecnologia serviu como objeto a ser
+    pirateado. A pirataria, junto com a tecnologia, mudou ao longo dos anos, se
+    o ápice do conhecimento humano permitia no século XIV permitia que um
+    navegante atravessasse o mundo em alguns meses, hoje navegar a internet nos
+    conecta ao outro lado do mundo em instantes. Em ambos os casos, a tecnóloga
+    é o meio de existência da pirataria.
+
+    A música é um bom exemplo a ser observado quando tratamos da pirataria nos
+    tempos modernos.  ``E embora a produção digital de música venha ocorrendo
+    desde os anos 1960 foi apenas no início década de 80 que os primeiros
+    discos compactos começaram a ser comercializados" \cite[p. 4]{ALMEIDA2018}.
+    E a tecnologia usada para a comercialização da música é geralmente a mesma
+    usada para a suas versões pirateadas.
+
+    A relação da música com a tecnologia em discussão é como objeto de consumo.
+    A internet serve tanto como meio de acesso legítimo quanto meio não
+    legítimo. No caso de um \emph{download} ilegal, pirata, diz-se que ``[...]
+    no Brasil, leva-se em consideração que a internet é só o meio utilizado
+    para as práticas dos crimes e assim sendo , as diretrizes do direito penal
+    são igualmente aplicáveis [...]" \cite[p. 3]{SANTOS2010}. Isso é, se aplica
+    às mesmas normas juridicas que se aplicaria à pirataria com venda (ou
+    distribuição gratúita) de \emph{CD}s.
+
+    A nuvem (\emph{cloud}), é um novo sentido que se dá no desenvolvimento da
+    computação, onde o processamento é feito em servidores acessados através da
+    internet. Um dos modelos que se tem, é o armazenamento de arquivos em
+    nuvem, com o qual os arquivos não ficam salvos apenas nos meios físicos
+    próprios do usuário, mas nos servidores do provedor desse serviço. Outra
+    modalidade, que receberá mais atenção, é o \emph{Streaming}, que é um
+    método de transmissão em oposição ao \emph{Broadcasting}. O
+    \emph{Broadcasting} é a configuração que tem-se na televisão e no rádio,
+    onde uma grande empresa transmite o mesmo conteúdo para todos os
+    consumidores simultaneamente. O novo modelo apresentado, \emph{Streaming}
+    funciona com a transmissão sob demanda, onde cada consumidor recebe a
+    informação desejada em específico.
+
+    Essa tecnologia é moderna, e faz parte de um processo de migração de
+    modelos de negócio. Essa migração, e as tecnologias que a possibilitam,
+    trazem uma série de novos desafios. Um desses desafios é a segurança:
+
+    \begin{citacao}
+        Em Cloud Computing o risco relativo à segurança da informação tornou-se
+        uma das principais preocupações entre os gestores e o ritmo de sua
+        disseminação está diretamente relacionado ao grau de confiança no
+        modelo. Sem confiança, a dificuldade na adoção do modelo se torna um
+        obstáculo/desafio, uma vez que, essa tomada de decisão, pode colocar em
+        risco os ativos da organização. \cite[p. 3]{SANTOS2010}
+    \end{citacao}
+
+    No campo legal, pode se dizer que ``Qualificada como violação ao direito de
+    autor, a pirataria é reprovável criminalmente com incidência de pena que
+    pode variar de três meses a quatro anos de reclusão e multa" \cite[p. 4]
+    {ARRABAL2015}.
+
+    \citeonline{SANTOS2010} ainda aponta que a legislação acompanha lentamente
+    essas mudanças. E não está adaptada aos novos modelos propostos. Isso por
+    que ``Os serviços em nuvem mudaram não só o modo de trabalhar, mas o
+    relacionamento com a internet: serviços de streaming como Spotify e Netflix
+    já são extremamente populares [...]" \cite{EXAME_ANUV}.
+
+    Isso ocorre devido à novos modelos de negócios, como apontado
+    anteriormente, que vem a sua possibilidade de existência nas novas
+    tecnologias. Entre esses novos modelos de negócio, cuja própria definição
+    passa pelo modelo de implementação técnica, está o \emph{Saas}:
+
+    \begin{citacao}
+        ``Software como Serviço (Software as a Service - SaaS) – Nesse modelo de
+        serviço o software é executado em um servidor, não sendo necessário
+        instalar o sistema no computador do cliente , basta acessá-lo por meio
+        da internet. O modelo de serviço de SaaS ainda tem uma série de
+        desafios a serem vencidos, dentre os quais podemos destacar os
+        problemas regulatórios, a integração com os recursos internos da
+        organização, a disponibilidade e mais especificamente a segurança das
+        informações." \cite{CASTRO2010}
+    \end{citacao}
+
+    A tecnologia em nuvem ainda possibilita uma coleção de ouros modelos de
+    negócios, mas a ideia de software como um serviço a ser consumido tem
+    gerado produtos de bastante sucesso dentro e fora da área de \emph{TI}, com
+    variedade de efeitos. Como exemplos temos o \emph{Spotify} ou a
+    \emph{Netflix}\footnote{Há também alguns exemplos de empresas crescendo a
+        largos passos oferecendo como serviço o que antes era um produto sem
+    relação direta com a pirataria: \emph{Airbnb} e \emph{Uber}.}.
+    \citeonline{OLHARDIG_PIR} Aponta que esses serviços, e sua popularidade,
+    inibem de certa forma os \emph{downloads} ilegais.
+
+    %Fim da introdução, inicio do desenvolvimento
+
+    Para entender o processo de combate que tecnologias como o \emph{Spotify}
+    tem contra a pirataria, é preciso prestar a atenção da industrial
+    fonográfica, e como ela utilizava a legislação de direitos autorais para a
+    construção de um modelo estável. Este modelo tem perdido espaço com as
+    mudanças que o cenário da música tem incorporado em si.
+
+    ``Os serviços de músicas por streaming, que cobram pela escuta a partir do
+    consumo de dados, surgiram no começo de 2010 com o processo de convergência
+    midiática mais influente e popular, principalmente com a ascensão de
+    dispositivos móveis" \cite[p. 4]{ALMEIDA2018}
+
+    Esses modelos, serviços por \emph{streaming} fornecem um meio legal para
+    acesso à música sem grandes custos para o consumidor. Oferece uma coleção
+    de vantagens quando comparado com algumas dificuldades da pirataria.
+    Consumir música como serviço necessita apenas de uma conexão estável (por
+    vezes esta conexão pode nem ser necessária) para acesso a toda base de músicas
+    que o serviço oferece. Sem riscos a segurança, como a pirataria tem, e em
+    adição, em algumas situações de forma gratuita.
+
+    Das possibilidades de consumo de música, destacam-se seis. A aquisição da
+    mídia física (\emph{CD}, \emph{Fita}, \emph{vinil}) original; a mídia
+    física pirateada; A aquisição, por meio de \emph{download} da mídia digital
+    de forma ilegal; A mídia digital adquirida de forma legal; A música como
+    objeto de \emph{broadcasting}; e os serviços por \emph{streaming}.
+
+    A aquisição da mídia física original, o do \emph{download} legítimo, tem
+    como desvantagem o preço. A cobrança é feita sobre um produto, paga-se pela
+    música, ou pelo album. O que faz com que o consumo de novos artistas seja
+    desestimulado e mantém um alto custo ao longo do tempo. Em adição a isso, a
+    mídia física, original ou não, apresenta uma dificuldade para o indivíduo
+    na questão da organização de \emph{playlists}, isso é, coletâneas de músicas
+    específicas organizadas. E ainda é preciso dizer que a mídia digital não
+    legítima oferece ao consumidor riscos à segurança, por conta de vírus, por
+    exemplo. O acesso por transmissão em larga escala (\emph{broadcasting}) do
+    rádio oferece um acesso legítimo e de baixo custo, no entanto não permite o
+    acesso personalizado e tem perdido espaço.
+
+    A pirataria, meios de acesso ilegítimo, surge com base nas mesmas
+    tecnologias que expandem os horizontes da indústria. As mesmas técnicas que
+    possibilitam a produção em maior escala, ou meios alternativos de
+    distribuição foram utilizadas para uma disponibilização e produção que não
+    respeitava os direitos do autor.
+
+    \begin{citacao}
+        ``A partir do início do século XXI vemos surgir, decorrente do cruzamento de
+        tecnologias digitais com a música, novas tendências de negócios. Acompanhando
+        as transformações vem os desafios enfrentados pela indústria fonográfica, desde
+        então. Se no tocante à gravação e produção da música a indústria ganha em
+        facilidade e barateamento, no que diz respeito à distribuição encontram-se
+        dificuldades como a pirataria [...]" \cite[p. 2]{ALMEIDA2018}
+    \end{citacao}
+
+    O serviço de música agrega em si as vantagens de cada uma das outras formas
+    de acesso possível. Ela é segura, é digital, legítima e barata. O próprio
+    \emph{Spotify} disponibiliza uma modalidade de consumo sem custo, que tem
+    algumas limitações específicas, ou pacotes para consumo em grupo, que tem
+    um baixo custo para cada um dos indivíduos.
+
+    Os serviços de \emph{streaming} para entretenimento televisivo, como
+    \emph{Netflix}, \emph{Hulu} ou \emph{Amazon Prime video}, tem vencido a
+    queda de braço com a televisão a cabo (e com a televisão aberta) nos
+    últimos anos. Essas mesmas plataformas combatem a pirataria oferecendo, a
+    baixo custo, um serviço superior do que a pirataria poderia. Sem os riscos
+    da aquisição de mídia digital ilegal que já foram citados; mais barato (na
+    maior parte dos casos) que o processo de locação, ou de aquisição de mídia
+    física\footnote{Neste caso chega a ser mais barato assinar a um desses
+        serviços do que adquirir a mídia física ilegal, por que há a
+        disponibilidade de uma quantia muito grande de conteúdo, que não seria possível
+    dentro da pirataria.}; e com qualidade superior a qualquer mídia pirata.
+
+    Isso pode ser evidenciado como o \textbf{Efeito \emph{Netflix}}:
+
+    \begin{citacao}
+        Os dados analisados pela Sandvine mostram que, entre 2011 e 2015, quando os
+        serviços de streaming começaram a ganhar bastante popularidade, o uso de
+        softwares como o BitTorrent caiu de 52\% do tráfego de envio nos Estados Unidos
+        para 27\%. Na Europa, o "efeito Netflix" foi maior: em 2011, 60\% do tráfego de
+        envio de arquivos na Europa acontecia em softwares de torrent. Em 2015, o
+        número caiu para 21\%. Agora, ele voltou a subir e chegou a 31\%. \cite[]{OLHARDIG_PIR}
+    \end{citacao}
+
+    Claro, como também é apontado pelo \citeonline{OLHARDIG_PIR}, passou a
+    existir um novo crescimento na pirataria, quando cada serviço passou a ter
+    suas produções específicas, exclusivas. No entanto é possível de se
+    imaginar que isso possa ser contornado por essa indústria com alguma
+    solução \emph{Pay per view}, onde não seria necessário assinar a todos os
+    serviços para ter acesso a todos os itens exclusivos.
+
+    É preciso também um foco no que esses serviços fizeram para com a televisão
+    a cabo. A forma de se consumir, como se compra \emph{software},
+    música, ou entretenimento audio visual mudou. Parece ser um consenso que,
+    em qualquer aplicativo que se instale no celular, você ou paga, ou vê
+    propaganda, nunca os dois. Isso se repete com a maioria das plataformas de
+    música em nuvem.
+
+    Isso é, este novo modelo supera, tanto na televisão quanto na música, os
+    modelos que coexistiam anteriormente.
+
+    Mantém-se algumas áreas que não foram encorporadas adequadamente à estes
+    serviços, como o jornalismo, que não se vê presente dentro dessas
+    plataformas, e talvez seja um caminho de crescimento possível. Mas o acesso
+    online que se tem de artigos de jornalismo parece já ter ferido o jornal
+    impresso, e começar a corroer o jornalismo televisionado. Nos mesmos moldes
+    que as mídias descritas anteriormente feriram a compra de \emph{CDs} e a
+    locação de filmes.
+
+    Existe também a presença do jornalismo como forma de podcast, mas esta
+    mídia acaba dependendo de outros mecanismos para a sustentação financeira.
+    E por fim, parte das funções sociais compostas pelos jornais impressos ou
+    televisionados foi transmitida, principalmente no meio politico, para a
+    plataforma \emph{Youtube}, que visa ser um ambiente para compartilhamento
+    de vídeos amadores, pseudo amadores ou semi profissionais.
+
+    E em adição, outras plataformas que possibilitam a atuação jornalistica são
+    as redes sociais, desde o \emph{Whatsapp}, ao \emph{Facebook} e ao
+    \emph{Twitter}.
+
+    %Fim do desenvolvimento, inicio da conclusão
+
+    Grande parte do funcionamento e dos mecanismos capitalistas que se
+    sustentaram no século XX e início do XXI veem-se ameaçadas pelas
+    possibilidades da tecnologia em nuvem: A industria fonográfica, televisiva
+    e a pirataria.
+
+    %Fim da conclusão, bibliografia
+
+    \bibliography{..\general_bibliografy}
+
+\end{document}
