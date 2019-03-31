@@ -1,9 +1,9 @@
-#O signo pirata na sociedade contemporânea: entre o oportunismo e o idealismo
+# O signo pirata na sociedade contemporânea: entre o oportunismo e o idealismo
 
-###.bib reference
+### .bib reference
 [general_bibliografy.bib](general_bibliografy.bib)
 
-###Abstract
+### Abstract
 Este artigo discute a ambivalência do signo Pirata configurada entre a moral do
 oportunismo e o idealismo libertário da cibercultura. As questões propostas são
 fruto de seminários realizados com a participação do Conselho de Combate à
@@ -13,13 +13,13 @@ pirata em sua representação ambígua: do simbólico que traduz o oportunismo
 ilícito ao idealismo que procura legitimar a ruptura do modelo vigente de
 propriedade intelectual em prol do livre acesso ao conhecimento e à cultura. 
 
-###key words
+### key words
  - Signo Pirata
  - Oportunismo
  - Idealismo
  - Propriedade Intelectual
 
-###Citations
+### Citations
     O Pirata surge então como uma figura imponente e ambivalente, um anti - herói,
     sujeito vil e ao mesmo tempo virtuoso, rude mas, paradoxalmente, dotado de
     qualidades e aspirações
@@ -73,4 +73,7 @@ Página 11, segundo parágrafo.
     poder.
 Página 12, último parágrafo.
 
-[Signo Pirata][Oportunismo][Idealismo][Propriedade Intelectual]
+`Signo Pirata`
+`Oportunismo`
+`Idealismo`
+`Propriedade Intelectual`

@@ -1,9 +1,9 @@
-#tidal: uma análise dos valores percebidos pelos usuários de música por streaming
+# tidal: uma análise dos valores percebidos pelos usuários de música por streaming
 
-###.bib reference
+### .bib reference
 [general_bibliografy.bib](general_bibliografy.bib)
 
-###Abstract
+### Abstract
 A música faz parte da vida de boa parte dos indivíduos, seja como forma de
 expressão, manifestação social ou entretenimento, e na última década pudemos
 observar importantes mudanças na forma de consumi-la. Atualmente, os serviços
@@ -21,14 +21,14 @@ consumidores. Desta maneira, infere-se que, apesar dos diferenciais oferecidos,
 falta ao TIDAL benefícios claros e um direcionamento para relacionamento de
 longo prazo, incrementando seu valor de marca em relação aos concorrentes.
 
-###key words
+### key words
  - Música Digital
  - Conteúdos Digitais
  - idal
  - Streaming
  - Entretenimento Digital
 
-###Citations
+### Citations
     A partir do início do século XXI vemos surgir, decorrente do cruzamento de
     tecnologias digitais com a música, novas tendências de negócios. Acompanhando
     as transformações vem os desafios enfrentados pela indústria fonográfica, desde
@@ -74,4 +74,8 @@ Página 8.
     dispositivos móveis
 Página 8.
 
-[Música Digital][Conteúdos Digitais][Tidal][Streaming][Entretenimento Digital]
+`Música Digital`
+`Conteúdos Digitais`
+`Tidal`
+`Streaming`
+`Entretenimento Digital`
